@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px
+}
+
+html {
+  font-size: 50px;
+  /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: 'Pirata One', cursive;
+  /* this should be the rest of the output you got from Google Fonts */
+  background-color: #e2f09a;
+}
+
+header {
+  border: 5px solid black;
+  height: 100px;
+  width: 100%
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: black;
+  text-shadow: 3px 3px 1px black;
+}
+
+p,
+li {
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+img {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
